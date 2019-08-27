@@ -1,0 +1,25 @@
+.height {
+    min-height: 100vh;
+}
+.height-80 {
+    min-height: 80vh;
+}
+
+.title-underline {
+    width: 200px;
+    height: 8px;
+    margin: 0 auto;
+    /* background: blue !important; */
+
+}
+.about-picture {
+    background: url('../img/hands.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.img-fluid {
+    height: 200px !important;
+}
