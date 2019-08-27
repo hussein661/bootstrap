@@ -7,24 +7,632 @@
     <!-- bootstrap css -->
     <link rel="stylesheet" href="./css//bootstrap.min.css" />
     <!--font awesome-->
-    <script src="./js/all.js"></script> 
-    <link rel='stylesheet' href="./css/main.css"></link>
+    <script src="./js/all.js"></script>
+    <link rel="stylesheet" href="./css/main.css" />
     <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">    <style>
-        a {
-            font-size: 4rem;
-            color: red;
-        }
-    </style>
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <style></style>
+        <!-- jquery -->
+        <script src="./js/jquery.js"></script>
   </head>
   <body>
+    <header id="header" class="bg-dark">
+      <div class="container">
+        <div class="row height align-items-center">
+          <div class="col">
+            <h1 class="text-danger text-uppercase font-weight-bold font-italic">
+              <strong>my first bootstrap</strong>
+              <small class="text-light">website</small>
+            </h1>
+            <p class="text-muted lead py-2">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit
+              reiciendis, natus voluptatem enim optio maxime animi voluptatum
+              voluptas vitae ipsa!
+            </p>
+            <a
+              href="#"
+              class="btn btn-outline-primary btn-lg m-2 text-capitalize"
+              >press here</a
+            >
+            <a
+              href="#"
+              class="btn btn-outline-success btn-lg m-2 text-capitalize"
+              >press here</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
 
+    <!--end of header-->
+    <!--skills section-->
 
+    <section id="skills" class="py-5 bg-white">
+      <div class="container">
+        <!--title-->
+        <div class="row">
+          <div class="col text-center">
+            <h1 class="display-4 text-uppercase text-dark mb-0">
+              <strong>skills</strong>
+            </h1>
+            <div class="title-underline bg-danger"></div>
+            <p class="mt-2 text-capitalize text-muted">
+              Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+        <!--end of title-->
+        <div class="row justify-content-center align-items-center">
+          <!--single column-->
+          <div class="col-md-6 text-center my-4">
+            <i class="fab fa-node-js fa-5x text-success"></i>
+            <h3 class="text-uppercase my-3">node.js</h3>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Repudiandae ducimus, quo reprehenderit illum illo ab?
+            </p>
+          </div>
+          <a
+            href=""
+            class="btn btn-outline-danger mx-3 btn-block text-uppercase"
+            >press here</a
+          >
+          <!--end of single col-->
+
+          <!--single column-->
+          <div class="col-md-6 text-center my-4">
+            <i class="fab fa-html5 fa-5x text-danger"></i>
+            <h3 class="text-uppercase my-3">html5</h3>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Repudiandae ducimus, quo reprehenderit illum illo ab?
+            </p>
+          </div>
+          <a
+            href=""
+            class="btn btn-outline-danger mx-3 btn-block text-uppercase"
+            >press here</a
+          >
+          <!--end of single col-->
+
+          <!--single column-->
+          <div class="col-md-6 text-center my-4">
+            <i class="fab fa-css3 fa-5x text-primary"></i>
+            <h3 class="text-uppercase my-3">css3</h3>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Repudiandae ducimus, quo reprehenderit illum illo ab?
+            </p>
+          </div>
+          <a
+            href=""
+            class="btn btn-outline-danger mx-3 btn-block text-uppercase"
+            >press here</a
+          >
+          <!--end of single col-->
+
+          <!--single column-->
+          <div class="col-md-6 text-center my-4">
+            <i class="fab fa-js fa-5x text-warning"></i>
+            <h3 class="text-uppercase my-3">javascript</h3>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Repudiandae ducimus, quo reprehenderit illum illo ab?
+            </p>
+          </div>
+          <a
+            href=""
+            class="btn btn-outline-danger mx-3 btn-block text-uppercase"
+            >press here</a
+          >
+          <!--end of single col-->
+        </div>
+      </div>
+    </section>
+
+    <!--end of skills section-->
+
+    <!--about section-->
+    <section id="about" class="bg-info">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 about-picture height-80"></div>
+          <div
+            class="col-md-6 about-text height-80 px-5 d-flex align-items-center justify-content-center "
+          >
+            <!--this is for centering-->
+            <div class="about-text-center">
+              <!--title-->
+              <div class="row">
+                <div class="col text-center">
+                  <h1 class="display-4 text-uppercase text-dark mb-0">
+                    <strong>about</strong>
+                  </h1>
+                  <div class="title-underline bg-warning"></div>
+                  <p class="mt-2 text-capitalize text-muted">
+                    Lorem ipsum dolor sit amet.
+                  </p>
+                </div>
+              </div>
+              <!--end of title-->
+              <!--single item-->
+              <div class="checkbox-item d-flex">
+                <i
+                  class="fas fa-check fa-3x bg-warning p-2 mr-3 align-self-center"
+                ></i>
+                <p class="text-light lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quisquam, cupiditate?
+                </p>
+              </div>
+              <!--end of single item -->
+              <!--single item-->
+              <div class="checkbox-item d-flex">
+                <i
+                  class="fas fa-check fa-3x bg-warning p-2 mr-3 align-self-center"
+                ></i>
+                <p class="text-light lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quisquam, cupiditate?
+                </p>
+              </div>
+              <!--end of single item-->
+              <!--single item-->
+              <div class="checkbox-item d-flex">
+                <i
+                  class="fas fa-check fa-3x bg-warning p-2 mr-3 align-self-center"
+                ></i>
+                <p class="text-light lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quisquam, cupiditate?
+                </p>
+              </div>
+              <!--end of single item-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end of about sections-->
+
+    <!--projects-->
+    <section id="projects" class="py-5 bg-secondary">
+      <div class="container">
+        <!--title-->
+        <div class="row">
+          <div class="col text-center">
+            <h1 class="display-4 text-uppercase text-dark mb-0">
+              <strong>projects</strong>
+            </h1>
+            <div class="title-underline bg-danger"></div>
+            <p class="mt-2 text-capitalize text-muted">
+              Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+        <!--end of title-->
+
+        <div class="row py-3">
+          <div class="col-sm-6 col-md-4 my-3">
+            <img src="img/cold.jpeg" class="img-fluid rounded" alt="cold" />
+          </div>
+
+          <div class="col-sm-6 col-md-4 my-3">
+            <img
+              src="img/cold.jpeg"
+              class="img-fluid img-thumbnail bg-danger border-warning"
+              alt="cold"
+            />
+          </div>
+
+          <div class="col-sm-6 col-md-4 my-3">
+            <img
+              src="img/cold.jpeg"
+              class="img-fluid rounded-circle"
+              alt="cold"
+            />
+          </div>
+        </div>
+
+        <div class="row py-3 no-">
+          <div class="col-sm-6 col-md-4 my-3">
+            <img src="img/cold.jpeg" class="img-fluid" alt="cold" />
+          </div>
+
+          <div class="col-sm-6 col-md-4 my-3">
+            <img src="img/cold.jpeg" class="img-fluid" alt="cold" />
+          </div>
+
+          <div class="col-sm-6 col-md-4 my-3">
+            <img src="img/cold.jpeg" class="img-fluid" alt="cold" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--end of projects-->
+
+    <!--team section -->
+    <section id="team" class="py-5 bg-light">
+      <div class="container">
+        <!--title-->
+        <div class="row">
+          <div class="col text-center">
+            <h1 class="display-4 text-uppercase text-dark mb-0">
+              <strong>team</strong>
+            </h1>
+            <div class="title-underline bg-warning"></div>
+            <p class="mt-2 text-capitalize text-muted">
+              Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+        <!--end of title-->
+
+        <div class="row">
+          <div class="col-md-6 col-lg-4 my-3">
+            <div class="card">
+              <img
+                src="img/cold.jpeg"
+                class="card-img-top img-fluid"
+                alt="member"
+              />
+              <div class="card-body">
+                <div class="card-title text-capitalize">team member</div>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tenetur, deserunt.
+                </p>
+                <a href="" class="btn btn-outline-warning text-uppercase"
+                  >press here</a
+                >
+              </div>
+              <div
+                class="card-footer bg-secondary d-flex justify-content-around"
+              >
+                <a href="#">
+                  <i class="fab fa-facebook fa-2x text-warning"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter fa-2x text-warning"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-youtube fa-2x text-warning"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-google fa-2x text-warning"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 my-3">
+            <div class="card">
+              <img
+                src="img/cold.jpeg"
+                class="card-img-top img-fluid"
+                alt="member"
+              />
+              <div class="card-body">
+                <div class="card-title text-capitalize">team member</div>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tenetur, deserunt.
+                </p>
+                <a href="" class="btn btn-outline-warning text-uppercase"
+                  >press here</a
+                >
+              </div>
+              <div
+                class="card-footer bg-secondary d-flex justify-content-around"
+              >
+                <a href="#">
+                  <i class="fab fa-facebook fa-2x text-warning"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter fa-2x text-warning"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-youtube fa-2x text-warning"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-google fa-2x text-warning"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 my-3">
+            <div class="card">
+              <img
+                src="img/cold.jpeg"
+                class="card-img-top img-fluid"
+                alt="member"
+              />
+              <div class="card-body">
+                <div class="card-title text-capitalize">team member</div>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tenetur, deserunt.
+                </p>
+                <a href="" class="btn btn-outline-warning text-uppercase"
+                  >press here</a
+                >
+              </div>
+              <div
+                class="card-footer bg-secondary d-flex justify-content-around"
+              >
+                <a href="#">
+                  <i class="fab fa-facebook fa-2x text-warning"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter fa-2x text-warning"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-youtube fa-2x text-warning"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-google fa-2x text-warning"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 my-3">
+            <div class="card">
+              <img
+                src="img/cold.jpeg"
+                class="card-img-top img-fluid"
+                alt="member"
+              />
+              <div class="card-body">
+                <div class="card-title text-capitalize">team member</div>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tenetur, deserunt.
+                </p>
+                <a href="" class="btn btn-outline-warning text-uppercase"
+                  >press here</a
+                >
+              </div>
+              <div
+                class="card-footer bg-secondary d-flex justify-content-around"
+              >
+                <a href="#">
+                  <i class="fab fa-facebook fa-2x text-warning"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter fa-2x text-warning"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-youtube fa-2x text-warning"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-google fa-2x text-warning"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--end of team section -->
+
+    <section id="progress" class="p-5 bg-dark text-light">
+      <div class="container">
+        <!--title-->
+        <div class="row">
+          <div class="col text-center">
+            <h1 class="display-4 text-uppercase mb-0">
+              <strong>progress</strong>
+            </h1>
+            <div class="title-underline bg-danger"></div>
+            <p class="mt-2 text-capitalize text-muted">
+              Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+        <!--end of title-->
+
+        <div class="row">
+          <div class="col col-md-8 mx-auto">
+            <h1 class="text-white">html</h1>
+            <div class="progress bg-secondary">
+              <div class="progress-bar bg-danger" style="width: 20%"></div>
+            </div>
+
+            <h1 class="text-white">css</h1>
+            <div class="progress bg-secondary">
+              <div class="progress-bar bg-primary" style="width: 40%"></div>
+            </div>
+
+            <h1 class="text-white">js</h1>
+            <div class="progress bg-secondary">
+              <div class="progress-bar bg-warning" style="width: 60%"></div>
+            </div>
+
+            <div class="prog my-3 d-flex justify-content-between">
+              <h3>Node js</h3>
+              <h3>80%</h3>
+            </div>
+            <div class="progress bg-secondary">
+              <div class="progress-bar bg-success" style="width: 80%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="py-5 bg-secondary">
+      <div class="container-fluid">
+        <!--title-->
+        <div class="row">
+          <div class="col text-center">
+            <h1 class="display-4 text-uppercase  mb-0">
+              <strong>pricing</strong>
+            </h1>
+            <div class="title-underline bg-primary"></div>
+            <p class="mt-2 text-capitalize">
+              Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+        <!--end of title-->
+
+        <div class="row">
+          <div class="col-md-4 my-4">
+            <div class="card">
+              <div
+                class="card-header bg-primary text-white textuppercase text-center py-4"
+              >
+                <h3>standrard</h3>
+              </div>
+              <div class="card-title text-center my-3">
+                <h4><sup>$</sup>5<sub>/month</sub></h4>
+              </div>
+              <ul class="list-group list-group-flush text-center">
+                <li class="list-group-item">Lorem, ipsum dolor.</li>
+                <li class="list-group-item">ipsum dolor.</li>
+                <li class="list-group-item">Lorem, behave ipsum dolor.</li>
+              </ul>
+              <div class="card-footer">
+                <a
+                  href="#"
+                  class="btn btn-outline-dark btn-block text-capitalize"
+                  >get started</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 my-4">
+            <div class="card">
+              <div
+                class="card-header bg-primary text-white textuppercase text-center py-4"
+              >
+                <h3>premium</h3>
+              </div>
+              <div class="card-title text-center my-3">
+                <h4><sup>$</sup>10<sub>/month</sub></h4>
+              </div>
+              <ul class="list-group list-group-flush text-center">
+                <li class="list-group-item">Lorem, ipsum dolor.</li>
+                <li class="list-group-item">ipsum dolor.</li>
+                <li class="list-group-item">Lorem, behave ipsum dolor.</li>
+              </ul>
+              <div class="card-footer">
+                <a
+                  href="#"
+                  class="btn btn-outline-dark btn-block text-capitalize"
+                  >get started</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 my-4">
+            <div class="card">
+              <div
+                class="card-header bg-primary text-white textuppercase text-center py-4"
+              >
+                <h3>pro</h3>
+              </div>
+              <div class="card-title text-center my-3">
+                <h4><sup>$</sup>15<sub>/month</sub></h4>
+              </div>
+              <ul class="list-group list-group-flush text-center">
+                <li class="list-group-item">Lorem, ipsum dolor.</li>
+                <li class="list-group-item">ipsum dolor.</li>
+                <li class="list-group-item">Lorem, behave ipsum dolor.</li>
+              </ul>
+              <div class="card-footer">
+                <a
+                  href="#"
+                  class="btn btn-outline-dark btn-block text-capitalize"
+                  >get started</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="bg-info py-5">
+      <!--title-->
+      <div class="row">
+        <div class="col text-center">
+          <h1 class="display-4 text-uppercase text-white mb-0">
+            <strong>footer</strong>
+          </h1>
+          <div class="title-underline bg-dark"></div>
+          <p class="mt-2 text-capitalize text-white">
+            Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+      </div>
+      <!--end of title-->
+
+      <div class="row">
+        <div class="col text-center">
+          <a href="#" class="btn">
+            <i class="fab fa-facebook fa-3x text-dark m-2"></i>
+          </a>
+
+          <a href="#" class="btn">
+            <i class="fab fa-twitter fa-3x text-dark m-2"></i>
+          </a>
+
+          <a href="#" class="btn">
+            <i class="fab fa-instagram fa-3x text-dark m-2"></i>
+          </a>
+
+          <a href="#" class="btn">
+            <i class="fab fa-github fa-3x text-dark m-2"></i>
+          </a>
+          <button
+            class="btn btn-danger text-white mx-auto d-block my-3"
+            data-toggle="modal"
+            data-target="#modal"
+          >
+            log out
+          </button>
+        </div>
+      </div>
+    </footer>
+
+    <!--modals -->
+
+    <div class="modal fade" id="modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">so sorry to see you leaver</h3>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quia
+              voluptatem repellendus eos similique nesciunt?
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger text-white" data-dismiss="modal">close</button> 
+          </div>
+          <!--modal header -->
+        </div>
+      </div>
+    </div>
 
     <!--------------------------------------------------------->
-      <!--bootsrap js-->
+    <!--bootsrap js-->
     <script src="./js/bootstrap.bundle.min.js"></script>
-    <!-- jquery -->
-    <script src="./js/jquery.js"></script>
+
   </body>
 </html>
