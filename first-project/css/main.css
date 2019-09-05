@@ -1,0 +1,28 @@
+body {
+    font-family: 'Indie Flower', cursive;
+}
+
+
+.height {
+    min-height: 100vh;
+}
+
+.title-underline {
+    width: 200px;
+    height: 5px;
+    margin: 0 auto;
+}
+
+.about-picture{
+    background: url('../img/cold.jpeg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#filler{
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(130, 240, 20, 0.5)), url('../img/cold.jpeg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
