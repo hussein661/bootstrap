@@ -16,41 +16,58 @@ body {
   color: var(--mainGreen);
 }
 .text-slant {
-  font-family: "Caveat",cursive;
+  font-family: "Caveat", cursive;
 }
-.btn-green {
+.green__btn {
   color: var(--mainGreen);
   border: 0.1rem solid var(--mainGreen);
   background: transparent;
 }
-.btn-green:hover {
+.green__btn:hover {
   background: var(--mainGreen);
   color: var(--mainWhite);
 }
-/* end of globals */
 
+/* end of global */
 /* navbar */
 .navbar {
-  background: var(--mainDark)
+  background: var(--mainDark) !important;
 }
-
 .phone-icon {
   color: var(--mainGreen);
   border: 0.1rem solid var(--mainGreen);
-  border-radius: 50%;
   padding: 0.5rem;
+  border-radius: 50%;
 }
 /* end of navbar */
-
 /* banner */
-.banner-info__footer{
+.banner-info {
+  min-height: calc(100vh - 101px);
+  background: var(--mainGrey);
+  position: relative;
+}
+.banner-info__footer {
   background: var(--mainGreen);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.banner-img {
+  min-height: calc(100vh - 101px);
+  background: url("../img/bannerBcg.jpeg") center/cover fixed no-repeat;
+  /* background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+  position: relative;
 }
 .banner-img__footer {
   background: var(--mainDark);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 104px;
+  display: flex;
+  align-items: center;
 }
-
-
-
-
-
